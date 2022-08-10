@@ -5,7 +5,7 @@ body{
 }
 
 /* Centered Karate man Code */
-img {
+.karateman img {
     display: block;
     float:left;
 }
@@ -49,4 +49,13 @@ a:hover {
 
 a:active {
     text-decoration: none; color:red;
+}
+
+/* avatar image */
+.avatar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ /**   width: 250px;    **/
+    width: 1000px;
 }
