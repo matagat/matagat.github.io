@@ -1,17 +1,37 @@
+/* Affects the first body */
 body{
     background-color: black;
     color: lime
 }
 
-/* Centered Image Code */
+/* Centered Karate man Code */
 img {
-  display: block;
-  float:left;
+    display: block;
+    float:left;
 }
 
+/* Logo Style and Positioning */
 h1{
-text-align: center;
-vertical-align: text-top;
-
-font-size: 15px;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 15px;
 }
+div0{
+    position: relative;
+    left: -60px
+}
+
+/* Re-Styles Nav links */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Also Re-Styles Nav links */
+li {
+    padding: 160px;
+    display: inline;
+
+}
+
