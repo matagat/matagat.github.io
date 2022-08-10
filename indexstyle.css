@@ -32,6 +32,17 @@ ul {
 li {
     padding: 160px;
     display: inline;
-
+}
+/* Style of links ;) */
+a{
+  text-decoration:none;
 }
 
+a:visited {
+   text-decoration: none;
+   color: lime;
+}
+
+a:hover {
+    text-decoration: none; color:yellow;
+}
