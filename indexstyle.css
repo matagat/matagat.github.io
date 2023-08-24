@@ -1,7 +1,7 @@
 /* Affects the first body */
 body{
-    background-color: black;
-    color: lime
+    background-color: rgb(19, 19, 19);
+    color: lime;
 }
 
 /* Centered Karate man Code */
@@ -18,7 +18,7 @@ h1{
 }
 div0{
     position: relative;
-    left: -50px
+    text-align: center;
 }
 
 /* Re-Styles Nav links */
@@ -52,10 +52,11 @@ a:active {
 }
 
 /* avatar image */
-.avatar img{
+.dubPlateImage img{
     display: block;
     margin-left: auto;
     margin-right: auto;
  /**   width: 250px;    **/
-    width: 500px;
+    width: 200px;
+    border-radius: 20px;
 }
