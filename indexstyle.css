@@ -10,11 +10,14 @@ body{
     float:left;
 }
 
-/* Logo Style and Positioning */
+/* Logo Style and Positioning LogoMobile */
 h1{
     text-align: center;
     vertical-align: text-top;
     font-size: 15px;
+}
+.LogoMobile{
+    font-size: 25px;
 }
 div0{
     position: relative;
@@ -58,5 +61,14 @@ a:active {
     margin-right: auto;
  /**   width: 250px;    **/
     width: 200px;
+    border-radius: 20px;
+}
+/* avatar image Mobile */
+.dubPlateImageMobile img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ /**   width: 250px;    **/
+    width: 300px;
     border-radius: 20px;
 }
